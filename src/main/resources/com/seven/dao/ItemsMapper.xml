@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.seven.dao.ItemsMapper" >
+  <resultMap id="BaseResultMap" type="com.seven.entity.Items" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" property="id" jdbcType="VARCHAR" />
+    <result column="item_name" property="itemName" jdbcType="VARCHAR" />
+    <result column="cat_id" property="catId" jdbcType="INTEGER" />
+    <result column="root_cat_id" property="rootCatId" jdbcType="INTEGER" />
+    <result column="sell_counts" property="sellCounts" jdbcType="INTEGER" />
+    <result column="on_off_status" property="onOffStatus" jdbcType="INTEGER" />
+    <result column="created_time" property="createdTime" jdbcType="TIMESTAMP" />
+    <result column="updated_time" property="updatedTime" jdbcType="TIMESTAMP" />
+    <result column="content" property="content" jdbcType="LONGVARCHAR" />
+  </resultMap>
+  <resultMap id="SimpleItemVO" type="com.seven.vo.ItemVO">
+    <id column="root_cat_id" property="rootCatId"/>
+    <result column="root_cat_name" property="rootCatName"/>
+    <result column="slogan" property="slogan"/>
+    <result property="catImage" column="cat_image"/>
+    <result property="bgColor" column="bg_color"/>
+    <collection property="simpleItemList" ofType="com.seven.vo.ItemSimpleVO">
+      <id property="itemId" column="item_id"/>
+      <result property="itemName" column="item_name"/>
+      <result property="itemUrl" column="item_url"/>
+    </collection>
+   </resultMap>
+    <select id="findByRootCatId" resultMap="SimpleItemVO">
+select c.id root_cat_id,c.name root_cat_name,c.slogan slogan,c.cat_image,c.bg_color
+     ,i.id item_id,i.item_name,img.url item_url
+from category c,items i,items_img img
+where c.id=i.root_cat_id and c.id=#{rootCatId} and img.item_id=i.id
+    </select>
+    <select id="findBySpecId" resultType="com.seven.vo.CartItems">
+    select
+      i.id itemId,
+      i.item_name itemName,
+      ii.url itemImgUrl,
+      ip.id specId,
+      ip.name sepcName,
+      ip.price_discount priceDiscount,
+      ip.price_normal priceNormal
+      from items i,items_img ii,items_spec ip
+    where ip.id in
+     <foreach collection="array" separator="," open="(" close=")" item="specId">
+         #{specId}
+     </foreach>
+     and ip.item_id=i.id and ip.item_id=ii.item_id and ii.is_main =1;
+    </select>
+    <select id="findCatItems" resultType="com.seven.vo.ItemCat">
+        select i.id itemId,
+               i.item_name itemName,
+               i.sell_counts sellCounts,
+               ii.url imgUrl,
+               t1.price
+        from category c,items i,items_img ii,
+        (select
+             item_id,
+             min(price_discount) price from items_spec
+         group by item_id) t1
+        where c.id=#{carId} and i.cat_id=c.id and ii.item_id=i.id and t1.item_id=i.id and ii.is_main=1
+        order by
+    <if test='sort=="k"'>
+        itemName desc
+    </if>
+    <if test='sort=="p"'>
+        price asc
+    </if>
+    <if test='sort=="c"'>
+        sellCounts desc
+    </if>
+    </select>
+
+</mapper>

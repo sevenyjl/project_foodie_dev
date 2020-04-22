@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.seven.dao.CategoryMapper" >
+  <resultMap id="BaseResultMap" type="com.seven.entity.Category" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="type" property="type" jdbcType="INTEGER" />
+    <result column="father_id" property="fatherId" jdbcType="INTEGER" />
+    <result column="logo" property="logo" jdbcType="VARCHAR" />
+    <result column="slogan" property="slogan" jdbcType="VARCHAR" />
+    <result column="cat_image" property="catImage" jdbcType="VARCHAR" />
+    <result column="bg_color" property="bgColor" jdbcType="VARCHAR" />
+  </resultMap>
+  <resultMap id="SubResultMap" type="com.seven.entity.Category">
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="type" property="type" jdbcType="INTEGER" />
+    <result column="father_id" property="fatherId" jdbcType="INTEGER" />
+    <collection property="subCatList" ofType="com.seven.vo.SubCategoryVO">
+      <id column="subId" property="subId"/>
+      <result column="subName" property="subName" jdbcType="VARCHAR" />
+      <result column="subType" property="subType" jdbcType="INTEGER" />
+      <result column="subFatherId" property="subFatherId" jdbcType="VARCHAR" />
+    </collection>
+  </resultMap>
+
+  <select id="findSonByFatherId" resultMap="SubResultMap">
+    select c.id, c.name,c.type,c.father_id,sub.*  from category c,
+(
+    select id subId,name subName,type subType,father_id subFatherId from category
+where father_id in (select id from category where father_id=#{fatherId})
+    ) sub
+where c.id=sub.subFatherId;
+  </select>
+</mapper>
