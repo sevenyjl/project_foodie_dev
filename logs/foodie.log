@@ -1,0 +1,104 @@
+2020-05-07 15:54:42.436 [ main ] - [ INFO  ] [ com.seven.ProjectFoodieDevApplicationTests : 55 ] - Starting ProjectFoodieDevApplicationTests on CDLX-PC with PID 9260 (started by CDLX in D:\javaProject\myproject\project_foodie_dev)
+2020-05-07 15:54:42.446 [ main ] - [ DEBUG ] [ com.seven.ProjectFoodieDevApplicationTests : 56 ] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-07 15:54:42.447 [ main ] - [ INFO  ] [ com.seven.ProjectFoodieDevApplicationTests : 651 ] - No active profile set, falling back to default profiles: default
+2020-05-07 15:55:01.631 [ main ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-07 15:55:07.100 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 160 ] - Context refreshed
+2020-05-07 15:55:07.233 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 163 ] - Found 1 custom documentation plugin(s)
+2020-05-07 15:55:07.330 [ main ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] - Scanning for api listing references
+2020-05-07 15:55:07.926 [ main ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] - Generating unique operation named: addUsingPOST_1
+2020-05-07 15:55:07.968 [ main ] - [ INFO  ] [ com.seven.ProjectFoodieDevApplicationTests : 61 ] - Started ProjectFoodieDevApplicationTests in 28.789 seconds (JVM running for 32.574)
+2020-05-07 15:55:09.913 [ main ] - [ INFO  ] [ io.lettuce.core.EpollProvider : 68 ] - Starting without optional epoll library
+2020-05-07 15:55:09.916 [ main ] - [ INFO  ] [ io.lettuce.core.KqueueProvider : 70 ] - Starting without optional kqueue library
+2020-05-07 16:00:11.532 [ main ] - [ INFO  ] [ com.seven.ProjectFoodieDevApplicationTests : 55 ] - Starting ProjectFoodieDevApplicationTests on CDLX-PC with PID 11704 (started by CDLX in D:\javaProject\myproject\project_foodie_dev)
+2020-05-07 16:00:11.534 [ main ] - [ DEBUG ] [ com.seven.ProjectFoodieDevApplicationTests : 56 ] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-07 16:00:11.536 [ main ] - [ INFO  ] [ com.seven.ProjectFoodieDevApplicationTests : 651 ] - No active profile set, falling back to default profiles: default
+2020-05-07 16:00:19.034 [ main ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-07 16:00:21.346 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 160 ] - Context refreshed
+2020-05-07 16:00:21.383 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 163 ] - Found 1 custom documentation plugin(s)
+2020-05-07 16:00:21.457 [ main ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] - Scanning for api listing references
+2020-05-07 16:00:21.999 [ main ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] - Generating unique operation named: addUsingPOST_1
+2020-05-07 16:00:22.035 [ main ] - [ INFO  ] [ com.seven.ProjectFoodieDevApplicationTests : 61 ] - Started ProjectFoodieDevApplicationTests in 12.166 seconds (JVM running for 14.185)
+2020-05-07 16:00:23.086 [ main ] - [ INFO  ] [ io.lettuce.core.EpollProvider : 68 ] - Starting without optional epoll library
+2020-05-07 16:00:23.090 [ main ] - [ INFO  ] [ io.lettuce.core.KqueueProvider : 70 ] - Starting without optional kqueue library
+2020-05-07 16:01:39.101 [ main ] - [ INFO  ] [ com.seven.ProjectFoodieDevApplicationTests : 55 ] - Starting ProjectFoodieDevApplicationTests on CDLX-PC with PID 11936 (started by CDLX in D:\javaProject\myproject\project_foodie_dev)
+2020-05-07 16:01:39.104 [ main ] - [ DEBUG ] [ com.seven.ProjectFoodieDevApplicationTests : 56 ] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-07 16:01:39.106 [ main ] - [ INFO  ] [ com.seven.ProjectFoodieDevApplicationTests : 651 ] - No active profile set, falling back to default profiles: default
+2020-05-07 16:01:46.336 [ main ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-07 16:01:48.738 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 160 ] - Context refreshed
+2020-05-07 16:01:48.785 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 163 ] - Found 1 custom documentation plugin(s)
+2020-05-07 16:01:48.847 [ main ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] - Scanning for api listing references
+2020-05-07 16:01:49.324 [ main ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] - Generating unique operation named: addUsingPOST_1
+2020-05-07 16:01:49.364 [ main ] - [ INFO  ] [ com.seven.ProjectFoodieDevApplicationTests : 61 ] - Started ProjectFoodieDevApplicationTests in 11.536 seconds (JVM running for 14.009)
+2020-05-07 16:01:50.147 [ main ] - [ INFO  ] [ io.lettuce.core.EpollProvider : 68 ] - Starting without optional epoll library
+2020-05-07 16:01:50.150 [ main ] - [ INFO  ] [ io.lettuce.core.KqueueProvider : 70 ] - Starting without optional kqueue library
+2020-05-07 16:02:39.289 [ main ] - [ INFO  ] [ com.seven.ProjectFoodieDevApplicationTests : 55 ] - Starting ProjectFoodieDevApplicationTests on CDLX-PC with PID 9112 (started by CDLX in D:\javaProject\myproject\project_foodie_dev)
+2020-05-07 16:02:39.292 [ main ] - [ DEBUG ] [ com.seven.ProjectFoodieDevApplicationTests : 56 ] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-07 16:02:39.294 [ main ] - [ INFO  ] [ com.seven.ProjectFoodieDevApplicationTests : 651 ] - No active profile set, falling back to default profiles: default
+2020-05-07 16:02:46.728 [ main ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-07 16:02:49.134 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 160 ] - Context refreshed
+2020-05-07 16:02:49.182 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 163 ] - Found 1 custom documentation plugin(s)
+2020-05-07 16:02:49.369 [ main ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] - Scanning for api listing references
+2020-05-07 16:02:49.829 [ main ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] - Generating unique operation named: addUsingPOST_1
+2020-05-07 16:02:49.867 [ main ] - [ INFO  ] [ com.seven.ProjectFoodieDevApplicationTests : 61 ] - Started ProjectFoodieDevApplicationTests in 11.711 seconds (JVM running for 14.551)
+2020-05-07 16:02:50.664 [ main ] - [ INFO  ] [ io.lettuce.core.EpollProvider : 68 ] - Starting without optional epoll library
+2020-05-07 16:02:50.667 [ main ] - [ INFO  ] [ io.lettuce.core.KqueueProvider : 70 ] - Starting without optional kqueue library
+2020-05-07 16:03:13.941 [ main ] - [ INFO  ] [ com.seven.ProjectFoodieDevApplicationTests : 55 ] - Starting ProjectFoodieDevApplicationTests on CDLX-PC with PID 10692 (started by CDLX in D:\javaProject\myproject\project_foodie_dev)
+2020-05-07 16:03:13.945 [ main ] - [ DEBUG ] [ com.seven.ProjectFoodieDevApplicationTests : 56 ] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-07 16:03:13.946 [ main ] - [ INFO  ] [ com.seven.ProjectFoodieDevApplicationTests : 651 ] - No active profile set, falling back to default profiles: default
+2020-05-07 16:03:21.127 [ main ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-07 16:03:23.391 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 160 ] - Context refreshed
+2020-05-07 16:03:23.432 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 163 ] - Found 1 custom documentation plugin(s)
+2020-05-07 16:03:23.489 [ main ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] - Scanning for api listing references
+2020-05-07 16:03:23.912 [ main ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] - Generating unique operation named: addUsingPOST_1
+2020-05-07 16:03:23.956 [ main ] - [ INFO  ] [ com.seven.ProjectFoodieDevApplicationTests : 61 ] - Started ProjectFoodieDevApplicationTests in 11.302 seconds (JVM running for 13.658)
+2020-05-07 16:03:24.625 [ main ] - [ INFO  ] [ io.lettuce.core.EpollProvider : 68 ] - Starting without optional epoll library
+2020-05-07 16:03:24.628 [ main ] - [ INFO  ] [ io.lettuce.core.KqueueProvider : 70 ] - Starting without optional kqueue library
+2020-05-07 16:04:12.683 [ main ] - [ INFO  ] [ com.seven.ProjectFoodieDevApplicationTests : 55 ] - Starting ProjectFoodieDevApplicationTests on CDLX-PC with PID 6548 (started by CDLX in D:\javaProject\myproject\project_foodie_dev)
+2020-05-07 16:04:12.686 [ main ] - [ DEBUG ] [ com.seven.ProjectFoodieDevApplicationTests : 56 ] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-07 16:04:12.688 [ main ] - [ INFO  ] [ com.seven.ProjectFoodieDevApplicationTests : 651 ] - No active profile set, falling back to default profiles: default
+2020-05-07 16:04:19.647 [ main ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-07 16:04:21.925 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 160 ] - Context refreshed
+2020-05-07 16:04:21.978 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 163 ] - Found 1 custom documentation plugin(s)
+2020-05-07 16:04:22.060 [ main ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] - Scanning for api listing references
+2020-05-07 16:04:22.524 [ main ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] - Generating unique operation named: addUsingPOST_1
+2020-05-07 16:04:22.572 [ main ] - [ INFO  ] [ com.seven.ProjectFoodieDevApplicationTests : 61 ] - Started ProjectFoodieDevApplicationTests in 11.413 seconds (JVM running for 14.007)
+2020-05-07 16:04:23.413 [ main ] - [ INFO  ] [ io.lettuce.core.EpollProvider : 68 ] - Starting without optional epoll library
+2020-05-07 16:04:23.418 [ main ] - [ INFO  ] [ io.lettuce.core.KqueueProvider : 70 ] - Starting without optional kqueue library
+2020-05-07 16:33:17.401 [ main ] - [ INFO  ] [ com.seven.ProjectFoodieDevApplicationTests : 55 ] - Starting ProjectFoodieDevApplicationTests on CDLX-PC with PID 12060 (started by CDLX in D:\javaProject\myproject\project_foodie_dev)
+2020-05-07 16:33:17.404 [ main ] - [ DEBUG ] [ com.seven.ProjectFoodieDevApplicationTests : 56 ] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-07 16:33:17.407 [ main ] - [ INFO  ] [ com.seven.ProjectFoodieDevApplicationTests : 651 ] - No active profile set, falling back to default profiles: default
+2020-05-07 16:33:27.113 [ main ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-07 16:33:29.267 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 160 ] - Context refreshed
+2020-05-07 16:33:29.341 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 163 ] - Found 1 custom documentation plugin(s)
+2020-05-07 16:33:29.422 [ main ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] - Scanning for api listing references
+2020-05-07 16:33:29.941 [ main ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] - Generating unique operation named: addUsingPOST_1
+2020-05-07 16:33:29.987 [ main ] - [ INFO  ] [ com.seven.ProjectFoodieDevApplicationTests : 61 ] - Started ProjectFoodieDevApplicationTests in 13.845 seconds (JVM running for 18.046)
+2020-05-07 16:33:30.911 [ main ] - [ INFO  ] [ io.lettuce.core.EpollProvider : 68 ] - Starting without optional epoll library
+2020-05-07 16:33:30.915 [ main ] - [ INFO  ] [ io.lettuce.core.KqueueProvider : 70 ] - Starting without optional kqueue library
+2020-05-07 16:34:02.562 [ main ] - [ INFO  ] [ com.seven.ProjectFoodieDevApplication : 55 ] - Starting ProjectFoodieDevApplication on CDLX-PC with PID 6272 (D:\javaProject\myproject\project_foodie_dev\target\classes started by CDLX in D:\javaProject\myproject\project_foodie_dev)
+2020-05-07 16:34:02.569 [ main ] - [ DEBUG ] [ com.seven.ProjectFoodieDevApplication : 56 ] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-07 16:34:02.570 [ main ] - [ INFO  ] [ com.seven.ProjectFoodieDevApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-05-07 16:34:05.519 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8089"]
+2020-05-07 16:34:05.521 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-05-07 16:34:05.521 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-07 16:34:05.883 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-05-07 16:34:08.634 [ main ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-07 16:34:09.514 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 160 ] - Context refreshed
+2020-05-07 16:34:09.536 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 163 ] - Found 1 custom documentation plugin(s)
+2020-05-07 16:34:09.583 [ main ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] - Scanning for api listing references
+2020-05-07 16:34:09.912 [ main ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] - Generating unique operation named: addUsingPOST_1
+2020-05-07 16:34:09.946 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8089"]
+2020-05-07 16:34:09.983 [ main ] - [ INFO  ] [ com.seven.ProjectFoodieDevApplication : 61 ] - Started ProjectFoodieDevApplication in 8.386 seconds (JVM running for 13.184)
+2020-05-07 16:35:21.454 [ http-nio-8089-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-07 16:35:37.298 [ http-nio-8089-exec-1 ] - [ INFO  ] [ io.lettuce.core.EpollProvider : 68 ] - Starting without optional epoll library
+2020-05-07 16:35:37.317 [ http-nio-8089-exec-1 ] - [ INFO  ] [ io.lettuce.core.KqueueProvider : 70 ] - Starting without optional kqueue library
+2020-05-07 16:35:45.474 [ http-nio-8089-exec-1 ] - [ INFO  ] [ com.seven.aspect.ServiceLogAspect : 25 ] - ===== 开始执行 class com.seven.service.impl.CarouselServiceImpl.getAll =====
+2020-05-07 16:35:45.774 [ http-nio-8089-exec-1 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - DateSourceHikariCP - Starting...
+2020-05-07 16:35:45.779 [ http-nio-8089-exec-1 ] - [ WARN  ] [ com.zaxxer.hikari.util.DriverDataSource : 70 ] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-05-07 16:35:49.414 [ http-nio-8089-exec-1 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - DateSourceHikariCP - Start completed.
+2020-05-07 16:35:49.493 [ http-nio-8089-exec-1 ] - [ DEBUG ] [ com.seven.dao.CarouselMapper.selectByExample : 143 ] - ==>  Preparing: SELECT id,image_url,background_color,item_id,cat_id,type,sort,is_show,create_time,update_time FROM carousel WHERE ( is_show = ? ) 
+2020-05-07 16:35:49.882 [ http-nio-8089-exec-1 ] - [ DEBUG ] [ com.seven.dao.CarouselMapper.selectByExample : 143 ] - ==> Parameters: 1(Integer)
+2020-05-07 16:35:50.632 [ http-nio-8089-exec-1 ] - [ DEBUG ] [ com.seven.dao.CarouselMapper.selectByExample : 143 ] - <==      Total: 4
+2020-05-07 16:35:50.648 [ http-nio-8089-exec-1 ] - [ ERROR ] [ com.seven.aspect.ServiceLogAspect : 37 ] - ===== 执行结束，耗时：5173 毫秒 =====
+2020-05-07 17:23:14.242 [ SpringContextShutdownHook ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - DateSourceHikariCP - Shutdown initiated...
+2020-05-07 17:23:14.269 [ SpringContextShutdownHook ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - DateSourceHikariCP - Shutdown completed.

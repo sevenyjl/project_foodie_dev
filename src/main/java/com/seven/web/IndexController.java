@@ -1,5 +1,7 @@
 package com.seven.web;
 
+import cn.hutool.json.JSONArray;
+import cn.hutool.json.JSONUtil;
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageInfo;
 import com.seven.entity.Carousel;
@@ -16,6 +18,7 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -41,12 +44,23 @@ public class IndexController {
     private CategoryService categoryService;
     @Autowired
     private ItemsService itemsService;
+    @Autowired
+    private StringRedisTemplate stringRedisTemplate;
 
 
     @ApiOperation("查询所有轮播图")
     @GetMapping("/carousel")
     public IMOOCJSONResult carousel() {
-        List<Carousel> all = carouselService.getAll(YesOrNo.YES.getCode());
+        List<Carousel> all =null;
+        //查询缓存
+        String carousel = stringRedisTemplate.opsForValue().get("carousel");
+        if (carousel==null){
+            all = carouselService.getAll(YesOrNo.YES.getCode());
+            //存储到redis
+            stringRedisTemplate.opsForValue().set("carousel", JSONUtil.toJsonPrettyStr(all));
+        }else {
+            all =JSONUtil.toList(new JSONArray(carousel),Carousel.class);
+        }
         return IMOOCJSONResult.ok(all);
     }
 

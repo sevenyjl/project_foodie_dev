@@ -1,0 +1,182 @@
+2020-04-08 15:15:47.346 [ main ] - [ INFO  ] [ com.seven.ProjectFoodieDevApplication : 55 ] - Starting ProjectFoodieDevApplication on CDLX-PC with PID 10064 (D:\javaProject\myproject\project_foodie_dev\target\classes started by CDLX in D:\javaProject\myproject\project_foodie_dev)
+2020-04-08 15:15:47.351 [ main ] - [ DEBUG ] [ com.seven.ProjectFoodieDevApplication : 56 ] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-08 15:15:47.352 [ main ] - [ INFO  ] [ com.seven.ProjectFoodieDevApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-04-08 15:15:49.249 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2020-04-08 15:15:49.251 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-04-08 15:15:49.252 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-08 15:15:49.415 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-04-08 15:15:50.373 [ main ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-08 15:15:51.390 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 160 ] - Context refreshed
+2020-04-08 15:15:51.411 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 163 ] - Found 1 custom documentation plugin(s)
+2020-04-08 15:15:51.445 [ main ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] - Scanning for api listing references
+2020-04-08 15:15:51.612 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2020-04-08 15:15:51.755 [ main ] - [ INFO  ] [ com.seven.ProjectFoodieDevApplication : 61 ] - Started ProjectFoodieDevApplication in 5.842 seconds (JVM running for 7.844)
+2020-04-08 15:46:13.618 [ main ] - [ INFO  ] [ com.seven.ProjectFoodieDevApplication : 55 ] - Starting ProjectFoodieDevApplication on CDLX-PC with PID 9368 (D:\javaProject\myproject\project_foodie_dev\target\classes started by CDLX in D:\javaProject\myproject\project_foodie_dev)
+2020-04-08 15:46:13.623 [ main ] - [ DEBUG ] [ com.seven.ProjectFoodieDevApplication : 56 ] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-08 15:46:13.624 [ main ] - [ INFO  ] [ com.seven.ProjectFoodieDevApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-04-08 15:46:15.928 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2020-04-08 15:46:15.929 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-04-08 15:46:15.930 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-08 15:46:16.058 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-04-08 15:46:16.492 [ main ] - [ ERROR ] [ tk.mybatis.spring.mapper.MapperFactoryBean : 82 ] - Error while adding the mapper 'interface com.seven.dao.UsersMapper' to configuration.
+org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'com/seven/dao/UsersMapper.xml'. Cause: java.lang.IllegalArgumentException: Result Maps collection already contains value for com.seven.dao.UsersMapper.BaseResultMap
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:122)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:94)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.loadXmlResource(MapperAnnotationBuilder.java:181)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse(MapperAnnotationBuilder.java:128)
+	at org.apache.ibatis.binding.MapperRegistry.addMapper(MapperRegistry.java:72)
+	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:775)
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:80)
+	at tk.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:51)
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1290)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:882)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.seven.ProjectFoodieDevApplication.main(ProjectFoodieDevApplication.java:12)
+Caused by: java.lang.IllegalArgumentException: Result Maps collection already contains value for com.seven.dao.UsersMapper.BaseResultMap
+	at org.apache.ibatis.session.Configuration$StrictMap.put(Configuration.java:947)
+	at org.apache.ibatis.session.Configuration$StrictMap.put(Configuration.java:903)
+	at org.apache.ibatis.session.Configuration.addResultMap(Configuration.java:660)
+	at org.apache.ibatis.builder.MapperBuilderAssistant.addResultMap(MapperBuilderAssistant.java:209)
+	at org.apache.ibatis.builder.ResultMapResolver.resolve(ResultMapResolver.java:47)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:288)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:253)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:245)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:118)
+	... 39 common frames omitted
+2020-04-08 15:46:16.511 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2020-04-08 15:47:03.290 [ main ] - [ INFO  ] [ com.seven.ProjectFoodieDevApplication : 55 ] - Starting ProjectFoodieDevApplication on CDLX-PC with PID 5596 (D:\javaProject\myproject\project_foodie_dev\target\classes started by CDLX in D:\javaProject\myproject\project_foodie_dev)
+2020-04-08 15:47:03.296 [ main ] - [ DEBUG ] [ com.seven.ProjectFoodieDevApplication : 56 ] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-08 15:47:03.297 [ main ] - [ INFO  ] [ com.seven.ProjectFoodieDevApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-04-08 15:47:05.371 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2020-04-08 15:47:05.372 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-04-08 15:47:05.373 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-08 15:47:05.491 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-04-08 15:47:06.504 [ main ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-08 15:47:07.801 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 160 ] - Context refreshed
+2020-04-08 15:47:07.828 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 163 ] - Found 1 custom documentation plugin(s)
+2020-04-08 15:47:07.865 [ main ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] - Scanning for api listing references
+2020-04-08 15:47:08.047 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2020-04-08 15:47:08.208 [ main ] - [ INFO  ] [ com.seven.ProjectFoodieDevApplication : 61 ] - Started ProjectFoodieDevApplication in 6.343 seconds (JVM running for 9.247)
+2020-04-08 15:49:16.116 [ main ] - [ INFO  ] [ com.seven.ProjectFoodieDevApplication : 55 ] - Starting ProjectFoodieDevApplication on CDLX-PC with PID 12152 (D:\javaProject\myproject\project_foodie_dev\target\classes started by CDLX in D:\javaProject\myproject\project_foodie_dev)
+2020-04-08 15:49:16.122 [ main ] - [ DEBUG ] [ com.seven.ProjectFoodieDevApplication : 56 ] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-08 15:49:16.123 [ main ] - [ INFO  ] [ com.seven.ProjectFoodieDevApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-04-08 15:49:18.414 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-08 15:49:18.415 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-04-08 15:49:18.415 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-08 15:49:18.565 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-04-08 15:49:19.662 [ main ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-08 15:49:20.761 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 160 ] - Context refreshed
+2020-04-08 15:49:20.781 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 163 ] - Found 1 custom documentation plugin(s)
+2020-04-08 15:49:20.816 [ main ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] - Scanning for api listing references
+2020-04-08 15:49:20.997 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-08 15:49:21.141 [ main ] - [ INFO  ] [ com.seven.ProjectFoodieDevApplication : 61 ] - Started ProjectFoodieDevApplication in 6.071 seconds (JVM running for 7.84)
+2020-04-08 15:50:25.434 [ http-nio-8089-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-08 15:50:25.527 [ http-nio-8089-exec-1 ] - [ INFO  ] [ com.seven.aspect.ServiceLogAspect : 25 ] - ===== 开始执行 class com.seven.service.impl.UsersServiceImpl.getUsersByUsername =====
+2020-04-08 15:50:25.714 [ http-nio-8089-exec-1 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - DateSourceHikariCP - Starting...
+2020-04-08 15:50:25.723 [ http-nio-8089-exec-1 ] - [ WARN  ] [ com.zaxxer.hikari.util.DriverDataSource : 70 ] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-08 15:50:27.508 [ http-nio-8089-exec-1 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - DateSourceHikariCP - Start completed.
+2020-04-08 15:50:27.535 [ http-nio-8089-exec-1 ] - [ DEBUG ] [ com.seven.dao.UsersMapper.selectOneByExample : 143 ] - ==>  Preparing: SELECT id,username,password,nickname,realname,face,mobile,email,sex,birthday,created_time,updated_time FROM users WHERE ( username = ? ) 
+2020-04-08 15:50:27.604 [ http-nio-8089-exec-1 ] - [ DEBUG ] [ com.seven.dao.UsersMapper.selectOneByExample : 143 ] - ==> Parameters: te(String)
+2020-04-08 15:50:27.781 [ http-nio-8089-exec-1 ] - [ DEBUG ] [ com.seven.dao.UsersMapper.selectOneByExample : 143 ] - <==      Total: 0
+2020-04-08 15:50:27.787 [ http-nio-8089-exec-1 ] - [ WARN  ] [ com.seven.aspect.ServiceLogAspect : 39 ] - ===== 执行结束，耗时：2259 毫秒 =====
+2020-04-08 15:51:15.996 [ http-nio-8089-exec-4 ] - [ INFO  ] [ com.seven.aspect.ServiceLogAspect : 25 ] - ===== 开始执行 class com.seven.service.impl.UsersServiceImpl.login =====
+2020-04-08 15:51:16.005 [ http-nio-8089-exec-4 ] - [ DEBUG ] [ com.seven.dao.UsersMapper.selectOne : 143 ] - ==>  Preparing: SELECT id,username,password,nickname,realname,face,mobile,email,sex,birthday,created_time,updated_time FROM users WHERE username = ? 
+2020-04-08 15:51:16.012 [ http-nio-8089-exec-4 ] - [ DEBUG ] [ com.seven.dao.UsersMapper.selectOne : 143 ] - ==> Parameters: seven(String)
+2020-04-08 15:51:16.033 [ http-nio-8089-exec-4 ] - [ DEBUG ] [ com.seven.dao.UsersMapper.selectOne : 143 ] - <==      Total: 1
+2020-04-08 15:51:16.161 [ http-nio-8089-exec-4 ] - [ INFO  ] [ com.seven.aspect.ServiceLogAspect : 41 ] - ===== 执行结束，耗时：163 毫秒 =====
+2020-04-08 15:51:16.178 [ http-nio-8089-exec-4 ] - [ INFO  ] [ com.seven.utils.CookieUtils : 198 ] - ========== domainName: localhost ==========
+2020-04-08 16:39:45.273 [ main ] - [ INFO  ] [ com.seven.ProjectFoodieDevApplication : 55 ] - Starting ProjectFoodieDevApplication on CDLX-PC with PID 5292 (D:\javaProject\myproject\project_foodie_dev\target\classes started by CDLX in D:\javaProject\myproject\project_foodie_dev)
+2020-04-08 16:39:45.279 [ main ] - [ DEBUG ] [ com.seven.ProjectFoodieDevApplication : 56 ] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-08 16:39:45.280 [ main ] - [ INFO  ] [ com.seven.ProjectFoodieDevApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-04-08 16:39:48.009 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-08 16:39:48.010 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-04-08 16:39:48.011 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-08 16:39:48.128 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-04-08 16:39:49.287 [ main ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-08 16:39:50.394 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 160 ] - Context refreshed
+2020-04-08 16:39:50.411 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 163 ] - Found 1 custom documentation plugin(s)
+2020-04-08 16:39:50.448 [ main ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] - Scanning for api listing references
+2020-04-08 16:39:50.721 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-08 16:39:50.871 [ main ] - [ INFO  ] [ com.seven.ProjectFoodieDevApplication : 61 ] - Started ProjectFoodieDevApplication in 7.01 seconds (JVM running for 9.021)
+2020-04-08 16:40:22.213 [ http-nio-8089-exec-2 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-08 16:40:22.350 [ http-nio-8089-exec-1 ] - [ INFO  ] [ com.seven.aspect.ServiceLogAspect : 25 ] - ===== 开始执行 class com.seven.service.impl.CarouselServiceImpl.getAll =====
+2020-04-08 16:40:22.494 [ http-nio-8089-exec-1 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - DateSourceHikariCP - Starting...
+2020-04-08 16:40:22.497 [ http-nio-8089-exec-1 ] - [ WARN  ] [ com.zaxxer.hikari.util.DriverDataSource : 70 ] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-08 16:40:23.827 [ http-nio-8089-exec-1 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - DateSourceHikariCP - Start completed.
+2020-04-08 16:40:23.840 [ http-nio-8089-exec-1 ] - [ DEBUG ] [ com.seven.dao.CarouselMapper.selectByExample : 143 ] - ==>  Preparing: SELECT id,image_url,background_color,item_id,cat_id,type,sort,is_show,create_time,update_time FROM carousel WHERE ( is_show = ? ) 
+2020-04-08 16:40:23.884 [ http-nio-8089-exec-1 ] - [ DEBUG ] [ com.seven.dao.CarouselMapper.selectByExample : 143 ] - ==> Parameters: 1(Integer)
+2020-04-08 16:40:24.496 [ http-nio-8089-exec-1 ] - [ DEBUG ] [ com.seven.dao.CarouselMapper.selectByExample : 143 ] - <==      Total: 4
+2020-04-08 16:40:24.500 [ http-nio-8089-exec-1 ] - [ WARN  ] [ com.seven.aspect.ServiceLogAspect : 39 ] - ===== 执行结束，耗时：2148 毫秒 =====
+2020-04-08 16:40:37.337 [ http-nio-8089-exec-4 ] - [ INFO  ] [ com.seven.aspect.ServiceLogAspect : 25 ] - ===== 开始执行 class com.seven.service.impl.CarouselServiceImpl.getAll =====
+2020-04-08 16:40:37.346 [ http-nio-8089-exec-4 ] - [ DEBUG ] [ com.seven.dao.CarouselMapper.selectByExample : 143 ] - ==>  Preparing: SELECT id,image_url,background_color,item_id,cat_id,type,sort,is_show,create_time,update_time FROM carousel WHERE ( is_show = ? ) 
+2020-04-08 16:40:37.348 [ http-nio-8089-exec-4 ] - [ DEBUG ] [ com.seven.dao.CarouselMapper.selectByExample : 143 ] - ==> Parameters: 1(Integer)
+2020-04-08 16:40:37.358 [ http-nio-8089-exec-4 ] - [ DEBUG ] [ com.seven.dao.CarouselMapper.selectByExample : 143 ] - <==      Total: 4
+2020-04-08 16:40:37.360 [ http-nio-8089-exec-4 ] - [ INFO  ] [ com.seven.aspect.ServiceLogAspect : 41 ] - ===== 执行结束，耗时：22 毫秒 =====
+2020-04-08 16:40:47.312 [ http-nio-8089-exec-5 ] - [ INFO  ] [ com.seven.aspect.ServiceLogAspect : 25 ] - ===== 开始执行 class com.seven.service.impl.CarouselServiceImpl.getAll =====
+2020-04-08 16:40:47.319 [ http-nio-8089-exec-5 ] - [ DEBUG ] [ com.seven.dao.CarouselMapper.selectByExample : 143 ] - ==>  Preparing: SELECT id,image_url,background_color,item_id,cat_id,type,sort,is_show,create_time,update_time FROM carousel WHERE ( is_show = ? ) 
+2020-04-08 16:40:47.320 [ http-nio-8089-exec-5 ] - [ DEBUG ] [ com.seven.dao.CarouselMapper.selectByExample : 143 ] - ==> Parameters: 1(Integer)
+2020-04-08 16:40:47.326 [ http-nio-8089-exec-5 ] - [ DEBUG ] [ com.seven.dao.CarouselMapper.selectByExample : 143 ] - <==      Total: 4
+2020-04-08 16:40:47.327 [ http-nio-8089-exec-5 ] - [ INFO  ] [ com.seven.aspect.ServiceLogAspect : 41 ] - ===== 执行结束，耗时：14 毫秒 =====
+2020-04-08 16:41:30.693 [ main ] - [ INFO  ] [ com.seven.ProjectFoodieDevApplication : 55 ] - Starting ProjectFoodieDevApplication on CDLX-PC with PID 10352 (D:\javaProject\myproject\project_foodie_dev\target\classes started by CDLX in D:\javaProject\myproject\project_foodie_dev)
+2020-04-08 16:41:30.699 [ main ] - [ DEBUG ] [ com.seven.ProjectFoodieDevApplication : 56 ] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-08 16:41:30.700 [ main ] - [ INFO  ] [ com.seven.ProjectFoodieDevApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-04-08 16:41:32.903 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-08 16:41:32.904 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-04-08 16:41:32.905 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-08 16:41:33.009 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-04-08 16:41:34.125 [ main ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-08 16:41:35.252 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 160 ] - Context refreshed
+2020-04-08 16:41:35.272 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 163 ] - Found 1 custom documentation plugin(s)
+2020-04-08 16:41:35.302 [ main ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] - Scanning for api listing references
+2020-04-08 16:41:35.482 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-08 16:41:35.647 [ main ] - [ INFO  ] [ com.seven.ProjectFoodieDevApplication : 61 ] - Started ProjectFoodieDevApplication in 6.189 seconds (JVM running for 8.505)
+2020-04-08 16:43:28.228 [ main ] - [ INFO  ] [ com.seven.ProjectFoodieDevApplication : 55 ] - Starting ProjectFoodieDevApplication on CDLX-PC with PID 6324 (D:\javaProject\myproject\project_foodie_dev\target\classes started by CDLX in D:\javaProject\myproject\project_foodie_dev)
+2020-04-08 16:43:28.234 [ main ] - [ DEBUG ] [ com.seven.ProjectFoodieDevApplication : 56 ] - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-08 16:43:28.235 [ main ] - [ INFO  ] [ com.seven.ProjectFoodieDevApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-04-08 16:43:30.200 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-08 16:43:30.201 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-04-08 16:43:30.201 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-08 16:43:30.305 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-04-08 16:43:31.418 [ main ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-08 16:43:32.312 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 160 ] - Context refreshed
+2020-04-08 16:43:32.343 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 163 ] - Found 1 custom documentation plugin(s)
+2020-04-08 16:43:32.386 [ main ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] - Scanning for api listing references
+2020-04-08 16:43:32.568 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-08 16:43:32.722 [ main ] - [ INFO  ] [ com.seven.ProjectFoodieDevApplication : 61 ] - Started ProjectFoodieDevApplication in 5.861 seconds (JVM running for 7.437)
+2020-04-08 16:43:46.797 [ http-nio-8089-exec-2 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-08 16:43:46.880 [ http-nio-8089-exec-2 ] - [ INFO  ] [ com.seven.aspect.ServiceLogAspect : 25 ] - ===== 开始执行 class com.seven.service.impl.CarouselServiceImpl.getAll =====
+2020-04-08 16:43:46.970 [ http-nio-8089-exec-2 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - DateSourceHikariCP - Starting...
+2020-04-08 16:43:46.972 [ http-nio-8089-exec-2 ] - [ WARN  ] [ com.zaxxer.hikari.util.DriverDataSource : 70 ] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-08 16:43:48.062 [ http-nio-8089-exec-2 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - DateSourceHikariCP - Start completed.
+2020-04-08 16:43:48.081 [ http-nio-8089-exec-2 ] - [ DEBUG ] [ com.seven.dao.CarouselMapper.selectByExample : 143 ] - ==>  Preparing: SELECT id,image_url,background_color,item_id,cat_id,type,sort,is_show,create_time,update_time FROM carousel WHERE ( is_show = ? ) 
+2020-04-08 16:43:48.134 [ http-nio-8089-exec-2 ] - [ DEBUG ] [ com.seven.dao.CarouselMapper.selectByExample : 143 ] - ==> Parameters: 1(Integer)
+2020-04-08 16:43:48.182 [ http-nio-8089-exec-2 ] - [ DEBUG ] [ com.seven.dao.CarouselMapper.selectByExample : 143 ] - <==      Total: 4
+2020-04-08 16:43:48.191 [ http-nio-8089-exec-2 ] - [ INFO  ] [ com.seven.aspect.ServiceLogAspect : 41 ] - ===== 执行结束，耗时：1310 毫秒 =====

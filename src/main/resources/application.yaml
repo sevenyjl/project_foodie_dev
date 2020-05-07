@@ -24,6 +24,11 @@ spring:
     password: root
     url: jdbc:mysql://localhost:3306/foodie?serverTimezone=GMT%2B8&characterEncoding=UTF-8
     username: root
+  # 配置 redis 相关
+  redis:
+    database: 15
+    host: 192.168.4.33
+    password: hzdl
 # 修改端口
 server:
   port: 8089
